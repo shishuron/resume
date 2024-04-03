@@ -1,0 +1,108 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{石书榕}
+
+\basicInfo{
+  \email{10215101561@stu.ecnu.edu.cn} \textperiodcentered\
+  \phone{(+86) 18959475638} \textperiodcentered\
+  %\linkedin[billryan8]{https://www.linkedin.com/in/billryan8}
+}
+
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{华东师范大学}, 上海}{2021.9 -- 2025.7}
+%\textit{在读硕士研究生}\ 信息与通信工程, 预计 2016 年 3 月毕业
+%\datedsubsection{\textbf{西安电子科技大学}, 西安, 陕西}{2009 -- 2013}
+\textit{在读本科生}\ 软件工程
+
+\section{\faUsers\ 项目经历}
+\datedsubsection{\textbf{PicPro QT} }{2023.4 -- 2023.7}
+后端开发
+\begin{itemize}
+  \item 实现了基于opencv的图像处理功能(去噪、锐化、归一等)
+  \item 实现了基于pytorch的图像风格迁移
+  \item 调用GFPGAN进行图像修复
+\end{itemize}
+
+\datedsubsection{\textbf{影评网站} }{2023.3 -- 2023.7}
+后端开发
+\begin{itemize}
+  \item 利用django进行模型定义与orm编写
+  \item 使用云服务与mysql进行大规模数据的存储、索引优化与查询
+\end{itemize}
+
+\datedsubsection{\textbf{petclinicmock}}{2024.2 -- 2024.4}
+后端开发
+\begin{itemize}
+  \item 进行数据库模型定义
+  \item 利用express.js编写orm
+  \item 设计接口测试用例，并利用postman进行测试
+  \item 设计系统测试用例，进行自动化测试
+\end{itemize}
+
+\datedsubsection{\textbf{华师大心理服务热线平台}}{2023.9 -- 2024.1}
+系统测试
+\begin{itemize}
+  \item 采用面向用户的系统测试，设计相关测试用例
+  \item 运用selenium框架进行web自动化测试
+  \item 提交缺陷以及修改意见
+\end{itemize}
+
+\datedsubsection{\textbf{弹球小游戏}}{2023.9 -- 2024.1}
+开发
+\begin{itemize}
+  \item 编写函数模拟小球在不同图形上的碰撞与反弹逻辑
+  \item 利用awt与swing等界面框架让用户可自定义游戏元素
+  \item 实现游戏进度的保存与读取
+\end{itemize}
+
+
+
+
+
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: C、 C++、Python、sql、coq、ocaml、javascript、Java
+  \item 平台: Windows、Linux
+  \item 测试: 系统测试、接口测试
+  \item 开发: xxx
+\end{itemize}
+
+\section{\faHeartO\ 获奖情况}
+\datedline{\textit{本科生三等奖学金}}{2022 年10月}
+\datedline{\textit{优秀学生会志愿者}}{2022 年12月}
+\datedline{\textit{本科生三等奖学金}}{2023 年10月}
+
+
+\section{\faInfo\ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 技术博客: http://blog.yours.me
+  \item GitHub: https://github.com/username
+  \item 语言: 英语 - 熟练(TOEFL xxx)
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
